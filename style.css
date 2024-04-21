@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: maroon;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: violet;
+  text-decoration: none;
+}
+
+.hero {
+  font-size: 12px;
+}
+
+section {
+  margin: 20px;
+}
+
+aside {
+  width: 20%;
+  margin: 23;
+}
+
+footer {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
